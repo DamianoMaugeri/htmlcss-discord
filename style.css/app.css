@@ -98,6 +98,7 @@ header .main-nav {
 .hero .bg-white{
     color: #000000;
 }
+
 .hero .button,
 .cta .button{
     padding: 10px 15px;
@@ -118,14 +119,6 @@ main{
 .section {
     padding: 100px 0;
 }
-
-
-.col-80 {
-    width: 80%;
-    background-color: rgb(231, 149, 197);
-    margin: auto;
-}
-
 
 .col-100 {
     width: 100%;
@@ -276,16 +269,4 @@ footer li{
 
 /* DEBUG */
 
-
-
-.debug .row>* {
-    border: 2px dashed black;
-   /* padding: 16px; */
-    min-height: 300px;
-}
-
-
-.debug.layout-3 {
-    background-color: grey;
-}
 
