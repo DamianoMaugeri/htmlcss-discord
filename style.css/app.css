@@ -27,6 +27,12 @@ img {
     padding: 0 20px;
 }
 
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -37,13 +43,18 @@ img {
 }
 
 
+
 /* HEADER FEATURES */
 
 .main-header {
     background-color: lightskyblue;
     padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
 
-
+header .button{
+    color: #000000;
 }
 
 header .main-nav {
@@ -56,14 +67,12 @@ header .main-nav {
 
 .nav-menu {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     align-items: center;
-    min-height: 60px;
+    
 }
 
-.main-nav >* {
-    border: 2px dashed black;
-}
+
 
 
 /* MAIN FEATURES*/
@@ -149,6 +158,14 @@ footer{
     padding: 10px;
 }
 
+.bg-white{
+    background-color: #ffffff;
+}
+
+.button{
+    border-radius: 999px;
+    padding: 8px 15px;
+}
 
 
 
