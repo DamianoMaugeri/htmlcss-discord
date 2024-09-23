@@ -45,7 +45,8 @@ h2{
 }
 
 p{
-    padding: 20px;
+    padding: 20px 0px;
+    font-size: 25px;
 }
 
 
@@ -82,7 +83,6 @@ header .main-nav {
 .hero{
     text-align: center;
     color: #ffffff;
-    font-size: 25px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -137,6 +137,13 @@ main{
     background-color: rgb(139, 236, 236);
 }
 
+.col-60 {
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
+}
 
 .layout-5 {
     background-color: grey;
