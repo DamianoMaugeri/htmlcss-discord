@@ -19,6 +19,10 @@ img {
     max-width: 100%;
 }
 
+html{
+    font-family: "Poppins" , system-ui;
+}
+
 /* LAYOUT */
 
 .container {
@@ -129,17 +133,14 @@ main{
 
 .col-66 {
     width: calc((100% / 3) * 2);
-    background-color: cornflowerblue;
 }
 
 .col-33 {
     width: calc(100% / 3);
-    background-color: pink;
 }
 
 .col-16 {
     width: calc(100% / 6);
-    background-color: rgb(139, 236, 236);
 }
 
 .col-60 {
@@ -171,28 +172,50 @@ main{
  .cta .bg-lblue{
     color: #ffffff;
 }
-}
+
 
 
 
 /* FOOTER FEATURES */
-.referenze{
-    margin-bottom: 2px solid rgb(104, 155, 231);
-}
+
 .page-footer{
     justify-content: space-between;
     min-height: 60px;
     align-items: center;
     background-color: aquamarine;
-    padding: 10px;
-    
-
 }
 
 footer{
     background-color: black;
-    padding-top: 30px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 12px;
 }
+
+footer img{
+    width: 50px;
+}
+
+.flag{
+    width: 20px;
+}
+
+.language{
+    line-height: 30px;
+    text-align: middle;
+    padding: 10px 0;
+}
+
+footer h3,
+footer h4{
+    color: rgb(63, 120, 226);
+    padding: 10px 0;
+}
+
+footer li{
+    padding: 5px 0px;
+}
+
 
 
 
@@ -233,6 +256,9 @@ footer{
     text-align: center;
 }
 
+.inline-block{
+    display:inline-block ;
+}
 
 
 /* DEBUG */
