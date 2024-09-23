@@ -61,7 +61,7 @@ p{
 /* HEADER FEATURES */
 
 .main-header {
-    background-color: rgb(135, 175, 250);
+    background-color: rgb(36, 99, 214);
     padding: 20px;
     color: #ffffff;
     font-size: 20px;
@@ -151,15 +151,6 @@ main{
     width: 40%;
 }
 
-.layout-5 {
-    background-color: grey;
-}
-
-
-.layout-6 {
-    background-color: black;
-}
-
 .star{
     background-image: url(../img/stars.svg);
     background-size: contain ;
@@ -178,21 +169,28 @@ main{
 
 /* FOOTER FEATURES */
 
+
+.main-footer{
+    padding-bottom: 10px;
+}
+
 .page-footer{
     justify-content: space-between;
     min-height: 60px;
     align-items: center;
-    background-color: aquamarine;
+    border-top: 1px solid rgb(114, 148, 212);
+    padding: 15px 0px;
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(20, 20, 41);
     padding-top: 20px;
     color: #ffffff;
     font-size: 12px;
 }
 
-footer img{
+
+footer figure img{
     width: 50px;
 }
 
@@ -208,7 +206,7 @@ footer img{
 
 footer h3,
 footer h4{
-    color: rgb(63, 120, 226);
+    color: rgb(114, 148, 212);
     padding: 10px 0;
 }
 
@@ -216,9 +214,24 @@ footer li{
     padding: 5px 0px;
 }
 
+.down-arrow{
+    font-size: 32px;
+    font-weight: bold;
+}
 
+.social-media{
+    font-size: 25px;
+}
 
+.social-media:not(:last-child) a{
+    padding-right: 20px;
+}
 
+.fa {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* UTILITY */
 
