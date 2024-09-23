@@ -44,6 +44,10 @@ h2{
     padding: 20px 0px;
 }
 
+h3{
+    font-size: 30px;
+}
+
 p{
     padding: 20px 0px;
     font-size: 25px;
@@ -90,7 +94,8 @@ header .main-nav {
 .hero .bg-white{
     color: #000000;
 }
-.hero .button{
+.hero .button,
+.cta .button{
     padding: 10px 15px;
     font-size: 28px;
     margin:  0px 10px;
@@ -154,8 +159,26 @@ main{
     background-color: black;
 }
 
-/* FOOTER FEATURES */
+.star{
+    background-image: url(../img/stars.svg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    width: 600px;
+    margin: auto;
+}
 
+ .cta .bg-lblue{
+    color: #ffffff;
+}
+}
+
+
+
+/* FOOTER FEATURES */
+.referenze{
+    margin-bottom: 2px solid rgb(104, 155, 231);
+}
 .page-footer{
     justify-content: space-between;
     min-height: 60px;
@@ -197,11 +220,18 @@ footer{
     background-color: rgb(223, 223, 226);
 }
 
+.bg-lblue{
+    background-color: rgb(104, 155, 231);
+}
+
 .button{
     border-radius: 999px;
     padding: 8px 15px;
 }
 
+.align-center{
+    text-align: center;
+}
 
 
 
