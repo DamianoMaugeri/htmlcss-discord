@@ -19,8 +19,8 @@ img {
     max-width: 100%;
 }
 
-html{
-    font-family: "Poppins" , system-ui;
+html {
+    font-family: "Poppins", system-ui;
 }
 
 /* LAYOUT */
@@ -43,16 +43,16 @@ html{
 }
 
 
-h2{
+h2 {
     font-size: 50px;
     padding: 20px 0px;
 }
 
-h3{
+h3 {
     font-size: 30px;
 }
 
-p{
+p {
     padding: 20px 0px;
     font-size: 25px;
 }
@@ -67,7 +67,7 @@ p{
     font-size: 20px;
 }
 
-header .button{
+header .button {
     color: #000000;
 }
 
@@ -75,7 +75,7 @@ header .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
@@ -83,27 +83,27 @@ header .main-nav {
     display: flex;
     gap: 50px;
     align-items: center;
-    
+
 }
 
 /* HERO */
 
-.hero{
+.hero {
     text-align: center;
     color: #ffffff;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 
-.hero .bg-white{
+.hero .bg-white {
     color: #000000;
 }
 
 .hero .button,
-.cta .button{
+.cta .button {
     padding: 10px 15px;
     font-size: 28px;
-    margin:  0px 10px;
+    margin: 0px 10px;
 }
 
 
@@ -112,7 +112,7 @@ header .main-nav {
 
 
 
-main{
+main {
     margin-bottom: 1px;
 }
 
@@ -140,20 +140,20 @@ main{
     width: 60%;
 }
 
-.col-40{
+.col-40 {
     width: 40%;
 }
 
-.star{
+.star {
     background-image: url(../img/stars.svg);
-    background-size: contain ;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 30px 20px;
     width: 70%;
     margin: auto;
 }
 
- .cta .bg-lblue{
+.cta .bg-lblue {
     color: #ffffff;
 }
 
@@ -163,11 +163,11 @@ main{
 /* FOOTER FEATURES */
 
 
-.main-footer{
+.main-footer {
     padding-bottom: 10px;
 }
 
-.page-footer{
+.page-footer {
     justify-content: space-between;
     min-height: 60px;
     align-items: center;
@@ -175,7 +175,7 @@ main{
     padding: 15px 0px;
 }
 
-footer{
+footer {
     background-color: rgb(20, 20, 41);
     padding-top: 20px;
     color: #ffffff;
@@ -183,48 +183,43 @@ footer{
 }
 
 
-footer figure img{
+footer figure img {
     width: 50px;
 }
 
-.flag{
+.flag {
     width: 20px;
 }
 
-.language{
+.language {
     line-height: 30px;
     text-align: middle;
     padding: 10px 0;
 }
 
 footer h3,
-footer h4{
+footer h4 {
     color: rgb(114, 148, 212);
     padding: 10px 0;
 }
 
-footer li{
+footer li {
     padding: 5px 0px;
 }
 
-.down-arrow{
+.down-arrow {
     font-size: 32px;
     font-weight: bold;
 }
 
-.social-media{
+.social-media {
     font-size: 25px;
 }
 
-.social-media:not(:last-child) a{
-    padding-right: 20px;
+.social-media a {
+    margin-right: 20px;
 }
 
-.fa {
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-}
 
 /* UTILITY */
 
@@ -232,41 +227,39 @@ footer li{
     background-color: orange;
 }
 
-.bg_pink{
+.bg_pink {
     background-color: pink;
     padding: 10px;
 }
 
-.bg-white{
+.bg-white {
     background-color: #ffffff;
 }
 
-.bg-black{
+.bg-black {
     background-color: #000000;
 }
 
-.bg-lgray{
+.bg-lgray {
     background-color: rgb(223, 223, 226);
 }
 
-.bg-lblue{
+.bg-lblue {
     background-color: rgb(104, 155, 231);
 }
 
-.button{
+.button {
     border-radius: 999px;
     padding: 8px 15px;
 }
 
-.align-center{
+.align-center {
     text-align: center;
 }
 
-.inline-block{
-    display:inline-block ;
+.inline-block {
+    display: inline-block;
 }
 
 
 /* DEBUG */
-
-
