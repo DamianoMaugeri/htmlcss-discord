@@ -86,6 +86,10 @@ header .main-nav {
 
 }
 
+.main-nav img{
+    display: block;
+}
+
 /* HERO */
 
 .hero {
@@ -93,6 +97,7 @@ header .main-nav {
     color: #ffffff;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 
 .hero .bg-white {
@@ -103,21 +108,24 @@ header .main-nav {
 .cta .button {
     padding: 10px 15px;
     font-size: 28px;
-    margin: 0px 10px;
+    
 }
 
+.btn-cta{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 /* MAIN FEATURES*/
 
 
 
 
-main {
-    margin-bottom: 1px;
-}
-
 .section {
     padding: 100px 0;
+    position: relative;
 }
 
 .col-100 {
@@ -251,6 +259,7 @@ footer li {
 .button {
     border-radius: 999px;
     padding: 8px 15px;
+    display: inline-block;
 }
 
 .align-center {
@@ -260,6 +269,7 @@ footer li {
 .inline-block {
     display: inline-block;
 }
+
 
 
 /* DEBUG */
