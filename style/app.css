@@ -92,12 +92,13 @@ header .main-nav {
 
 /* HERO */
 
-.hero {
+.section.hero {
     text-align: center;
     color: #ffffff;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    padding-bottom: 100px;
 }
 
 .hero .bg-white {
@@ -124,7 +125,7 @@ header .main-nav {
 
 
 .section {
-    padding: 100px 0;
+    padding: 0 0;
     position: relative;
 }
 
@@ -163,6 +164,11 @@ header .main-nav {
 
 .cta .bg-lblue {
     color: #ffffff;
+
+}
+
+.cta {
+    padding-bottom: 100px;
 }
 
 
@@ -270,6 +276,28 @@ footer li {
     display: inline-block;
 }
 
-
+.pad-100{
+    padding-top: 100px;
+}
 
 /* DEBUG */
+
+
+
+
+.wave-bottom::after {
+    content: url(../img/wave-gray.svg);
+    display: block;
+    height: 300px;
+    background-size: cover;
+    background-color: #ffffff;
+
+}
+
+.wave-top::after {
+    content: url(../img/wave-gray-giu.svg);
+    display: block;
+    height: 300px;
+    background-size: cover;
+    background-color: #ffffff;
+}
