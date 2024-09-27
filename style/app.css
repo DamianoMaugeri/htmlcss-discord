@@ -287,16 +287,19 @@ footer li {
 .wave-bottom::after {
     content: url(../img/wave-gray.svg);
     display: block;
-    height: 300px;
+    height: 100%;
     background-size: cover;
     background-color: #ffffff;
+    position: relative;
+    margin-bottom: -10px;
 
 }
 
 .wave-top::after {
     content: url(../img/wave-gray-giu.svg);
     display: block;
-    height: 300px;
+    height: 100%;
     background-size: cover;
     background-color: #ffffff;
 }
+
